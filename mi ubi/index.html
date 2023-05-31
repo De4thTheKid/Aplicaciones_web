@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mapa Mundi</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <center><iframe id="mapamundi"
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d739.4666888709941!2d-89.6326642200319!3d20.92524908102047!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5672188a6f3e19%3A0x2da02369831e0778!2sC.%20131%20538A%2C%20San%20Antonio%20Xluch%20I%2C%2097290%20M%C3%A9rida%2C%20Yuc.!5e0!3m2!1ses-419!2smx!4v1685498198675!5m2!1ses-419!2smx"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe></center>
+
+    <div class="boxes">
+      <div class="box">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" />
+      </div>
+
+      <div class="box">
+        <button class="button" onclick="mostrarMensaje()">Aceptar</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+body{
+    width: 750px;
+    height: 750px;
+    margin: 0%;
+}
+
+header{
+    height: 230px;
+    background-color: lightskyblue;
+    border: 10px solid black;
+}
+.cabeza{
+    display: flex;
+}
+.banner{
+    width: 500px;
+    height: 210px;
+    margin: 10px;
+    background-color: white;
+}
+
+.logo{
+    width: 184px;
+    height: 210px;
+    margin: 10px;
+    background-color: white;
+}
+
+nav{
+    height: 40px;
+    background-color: lightgreen;
+    border-bottom:10px solid black ;
+    border-left:10px solid black ;
+    border-right:10px solid black ;
+}
+
+main{
+    height: 390px;
+    background-color: bisque;
+    border-bottom:10px solid black ;
+    border-left:10px solid black ;
+    border-right:10px solid black ;
+}
+
+.principal{
+    display: flex;
+}
+.article{
+    width: 450px;
+    height: 370px;
+    margin: 10px;
+    background-color: white;
+}
+.aside{
+    width: 235px;
+    height: 370px;
+    margin: 10px;
+    background-color: white;
+}
+footer{
+    height: 40px;
+    background-color: orange;
+    border-bottom:10px solid black ;
+    border-left:10px solid black ;
+    border-right:10px solid black ;
+}
